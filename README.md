@@ -19,5 +19,8 @@
 - Add the name of the app in the settings file of our project
 - Go to the leads folder, then the models.py file and create a model name Lead
 - Once created go to the terminal and execute `python manage.py makemigrations leads` then `python manage.py migrate`
-- 
+- Let s now go to the API : REST FRAMEWORK
+- First we create a serializer.py file in the leads folder. It is a file that will allows complex data such as queryset and models instances to be converted to Python data type that can be easily rendered to JSON, XML AND OTHER ....
+- Then we must create api.py file that use viewset that allows us to create a full crud api (create read update and delete) without having to specify explicit methods for the functionality. It is kind like how ruby works
+
 
